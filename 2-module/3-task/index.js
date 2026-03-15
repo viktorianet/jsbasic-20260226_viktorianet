@@ -1,11 +1,11 @@
 let calculator = {
-  read() {
-   this.a = +prompt("Ввведите a:","");
-   this.b = +prompt("Ввведите b:","");
+  read (a,b){
+   this.a = a;
+   this.b = b;
   },
   sum() {return this.a + this.b; },
   mul() {return this.a * this.b; }
-}
+};
 
 
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
