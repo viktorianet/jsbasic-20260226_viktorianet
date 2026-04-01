@@ -6,5 +6,3 @@ function toggleText() {
     text.hidden = !text.hidden;
   });
 }
-
-toggleText();
